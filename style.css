@@ -39,3 +39,60 @@ font-weight: 500;
 }
 .navbar-Header-right a:hover {
     color: rgb(25, 23, 19); background-color: paleturquoise;
+}
+
+
+.hero-section {
+    width: auto;               
+    height: 674 px;                   
+    background-image: url(hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;     
+    align-items: center;            
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 auto;                  
+    position: relative;
+}
+
+.Early-Access-Bar {
+    font-size: x-small;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 20px;
+    text-decoration: none
+    color(rgb(13, 140, 51));
+    border-radius: 4px;
+    margin-top: 20px;
+    background-color: rgb(122, 179, 130);
+}
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.title1-white {
+    font-size: 48px;
+    color: white;}
+
+.title2-green {
+    font-size: 48px;
+    color: rgb(13, 140, 51);
+}
+.hero-section h1,
+.hero-section h2 {
+    margin:0; line-height: 1.1;
+}
+
+.Early-Access-Bar,
+.hero-section h1,
+.hero-section h2 {
+    margin-top: 17px;
+}
