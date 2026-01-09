@@ -244,8 +244,52 @@ font-weight: 500;
     text-decoration: none;
     opacity: 0.8;
     margin-top: 10px;
+    cursor: pointer;
 }
+
+.button-sec5:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 8, 8);
+}
+
+
+
 .right-arrow {
     margin-left: 8px;
     vertical-align: middle;
+}
+.footer {
+    background-color: rgb(17, 19, 52);
+    color: white;;
+    padding: 20px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer-socials {
+    margin-top: 10px;
+    gap: 15px;  
+    text-align: right;
+}
+.socials-text-only { text-decoration: underline;}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.social-links img:hover {
+    opacity: 1;
+    
+    
+
+}
+
+.footer-ending {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: rgb(220, 220, 220);
+    opacity: 0.3;
 }
